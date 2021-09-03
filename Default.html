@@ -1,0 +1,3499 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<!--<![endif]-->
+<head id="Head1">
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <!-- Mobile Specific
+  =================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+
+</head>
+<body style="overflow: visible;">
+
+  <script  src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="  crossorigin="anonymous"></script>
+  <script type="text/javascript" src='../assets/plugins/jquery/jquery.min.js'></script>
+  <script type="text/javascript" src='../assets/plugins/jquery/jquery-migrate.min.js'></script>
+  <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/footers/footer-v1.css">
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/plugins/animate.css">
+  <link rel="stylesheet" href="../assets/plugins/line-icons/line-icons.css">
+  <link rel="stylesheet" href="../assets/plugins/font-awesome/css/font-awesome.min.css">
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="../assets/css/custom.css?v1.4">
+  <!-- Navigation Menu -->
+  <link rel="stylesheet" href="../assets/megamenu/css/hf2017.css?v1.1">
+  <link rel="stylesheet" href="../Search/siteSearch.css">
+  <style>
+    /*********************************************************************
+    PRODUCT PAGE GLOBAL
+    *********************************************************************/
+
+    section {
+      position: relative;
+    }
+
+
+
+    #pp-main-cont {
+    }
+
+    #pp-main-cont h3 {
+      line-height: 1.25em;
+    }
+
+    #pp-main-cont h3 {
+      font-weight: 700;
+    }
+
+    #pp-main-cont h1, #pp-main-cont h2, #pp-main-cont h3, #pp-main-cont h4 {
+      color: #333;
+    }
+
+    #pp-main-cont .ipn-ele {
+      padding: 20px 0;
+    }
+
+    #pp-main-cont section#product-details {
+      padding-top: 5px;
+    }
+
+    #pp-main-cont .sec-title {
+      text-align: center;
+      padding-bottom: 18px;
+    }
+
+    #pp-main-cont .sec-title .header-line {
+      height: 2px;
+      width: calc( 100% - 30px );
+      display: block;
+      position: absolute;
+      top: 30px;
+      z-index: 20;
+      background-color: #fff;
+    }
+
+    #pp-main-cont.dark-text .sec-title .header-line {
+      background-color: #000;
+    }
+
+    #pp-main-cont .sec-title h2 {
+      position: relative;
+      display: inline-block;
+      color: #333;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 40px;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 10px;
+      z-index: 40;
+      text-transform: uppercase;
+    }
+
+    #pp-main-cont .sec-title h2.title-white {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+
+    #pp-main-cont.dark-text .sec-title h2.title-white {
+      color: #333;
+      border-color: #000;
+    }
+
+    #pp-main-cont .sec-title h2.bkg-none {
+      background-color: transparent;
+    }
+
+    #pp-main-cont p {
+      font-size: 16px;
+      color: #000;
+      margin: 0 0 20px;
+      line-height: 24px;
+    }
+
+    #pp-main-cont p.footnote {
+      line-height: 14px;
+      color: #000;
+      margin: 0 0 10px;
+    }
+
+    #legal p {
+      font-size: 12px;
+      line-height: 14px;
+      color: #000;
+      margin: 0 0 10px;
+    }
+
+    #pp-main-cont .btm-space {
+      margin-bottom: 20px;
+    }
+
+    #pp-main-cont .bk-white {
+      background-color: #ffffff;
+    }
+
+    #in-page-nav .nav-col .pc-active {
+      color: #007035 !important;
+    }
+
+    .pc-active-ornamental {
+      color: #b10c5b !important;
+    }
+
+    .pc-active-ornamental:hover {
+      color: #b10c5b !important;
+    }
+
+    .productselector {
+      font-weight: 400 !important;
+    }
+
+    .sc-bkg {
+      background-color: #03824c;
+    }
+
+    .pc-border, .toggle-states.active, .toggle-crops.active {
+      border-color: #007035;
+    }
+
+    .pc-border-turf {
+      border-color: #007035;
+    }
+
+    .pc-border-ornamental {
+      border-color: #b10c5b;
+    }
+
+    .pc-bkg, .toggle-states.active, .toggle-crops.active, .testimonial-select.pc-active {
+      background-color: #007035;
+    }
+
+    .pc-bkg-turf {
+      background-color: #007035;
+    }
+
+    .pc-bkg-ornamental {
+      background-color: #b10c5b;
+    }
+
+    .pc-color-hover:hover {
+      color: #007035 !important;
+      border-color: #007035;
+    }
+
+    .pc-color-hover-turf:hover {
+      color: #007035 !important;
+      border-color: #007035;
+    }
+
+    .pc-color-hover-ornamental:hover {
+      color: #b10c5b !important;
+      border-color: #b10c5b;
+    }
+
+    @media only screen and (min-width:350px) {
+      #pp-main-cont .sec-title h2 {
+        font-size: 20px;
+        padding: 10px 20px;
+      }
+    }
+
+
+
+
+    /*********************************************************************
+    MARRKETING BANNER
+    *********************************************************************/
+
+    #mkt-banner {
+      margin-top: -21px;
+      position: relative;
+      background-color: transparent;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+
+
+
+    #mkt-banner.mktb-standard {
+    }
+
+
+    .mktb-standard .mktb-mobile-bk {
+      display: block;
+      width: 100%;
+      height: 400px;
+      position: relative;
+      background-color: transparent;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .mktb-standard.mktb-default .mktb-mobile-bk {
+      height: 150px;
+    }
+
+    .mktb-standard .mktb-mobile-bk {
+      height: 300px;
+    }
+
+    .mktb-standard .mktb-bk {
+      display: none;
+    }
+
+    .mktb-standard .container {
+      position: relative;
+      height: auto;
+      margin-top: -400px;
+    }
+
+    .mktb-standard.mktb-default .container {
+      margin-top: 0;
+    }
+
+    #mkt-banner .logo-abs-cont {
+      background: #fff;
+      padding: 15px;
+    }
+
+    #mkt-banner.mktb-standard .logo-abs-cont {
+      bottom: unset;
+      top: 250px;
+      left: 15px;
+    }
+
+    #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+      top: 0;
+      left: 0;
+    }
+
+    #mkt-banner .logo-abs-cont {
+      padding: 15px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+      position: relative;
+      text-align: center;
+    }
+
+    #mkt-banner .logo-abs-cont img {
+      height: 55px;
+      width: auto;
+    }
+
+    .mktb-standard .mktbs-call-out {
+      background-color: #fff;
+      margin: 250px 15px 0;
+      padding: 32px 15px 30px;
+      border-bottom: 5px solid #7AC143;
+      -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+      -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+      box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+    }
+
+    .mktb-standard .bar-btm {
+      width: 100%;
+      height: 3px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      margin-left: -20px;
+    }
+
+    .mktb-standard .mktbs-call-out .mktbs-title {
+      color: #333;
+      font-size: 26px;
+      line-height: 31px;
+      font-weight: bold;
+      margin: 55px 0 20px;
+      display: block;
+    }
+
+    .mktb-standard .mktbs-call-out p {
+      color: #333;
+      margin: 0 0 15px;
+      font-size: 16px;
+      line-height: 23px;
+    }
+
+    a.btn-pp {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 7px 18px;
+      border-width: 2px;
+      border-style: solid;
+      -webkit-transition: all .25s;
+      transition: all .25s;
+    }
+
+    a.btn-pp:hover {
+      background-color: #fff;
+    }
+
+    .dark-text a.btn-pp {
+      color: #333;
+    }
+
+
+    #mkt-banner-lines {
+      margin-top: 20px;
+    }
+
+    .mktb-lines .top-line {
+      height: 10px;
+      width: 100%;
+      display: block;
+      background-color: #7AC143;
+    }
+
+    .mktb-lines .btm-line {
+      height: 8px;
+      width: 100%;
+      display: block;
+    }
+
+
+    .mktb-lines .img-ves img {
+      display: block;
+      padding: 13px 0 7px;
+      margin: 0 auto;
+      height: 80px;
+    }
+
+    @media only screen and (min-width:768px) {
+      .mktb-standard.mktb-default .container {
+        margin-top: -50px;
+        padding-bottom: 0;
+      }
+
+      .mktb-standard .mktb-mobile-bk {
+        display: none;
+      }
+
+      .mktb-standard .mktb-bk {
+        display: block;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      #mkt-banner .logo-abs-cont {
+        bottom: initial;
+        top: 250px;
+        left: 15px;
+      }
+
+      #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+        left: auto;
+      }
+
+      .mktb-standard.mktb-animation .mktb-bk {
+        height: 500px;
+      }
+
+      .mktb-standard.mktb-default .mktb-bk {
+        height: 250px;
+      }
+
+      .mktb-standard .container {
+        position: relative;
+        height: 300px;
+        margin-top: 0;
+        padding-bottom: 0;
+        overflow: hidden;
+      }
+
+      .mktb-standard.mktb-animation .container {
+        height: 500px;
+      }
+
+
+      .mktb-standard.mktb-default .container {
+        height: 250px;
+        margin-top: 0;
+      }
+
+
+
+      .mktb-standard .mktbs-call-out {
+        background-color: rgba(255,255,255,.90);
+        width: 55%;
+        margin: 0 0 0 15px;
+        position: absolute;
+        padding: 20px 20px 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+        position: absolute;
+        text-align: left;
+      }
+
+      #mkt-banner .logo-abs-cont {
+        background: #fff;
+        padding: 15px 25px 15px;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        left: auto;
+        -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+        box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+      }
+
+      #mkt-banner.mktb-standard .logo-abs-cont {
+        bottom: auto;
+        top: 0;
+        left: auto;
+      }
+
+      #mkt-banner .logo-abs-cont img {
+        height: 65px;
+        max-height: none;
+        width: auto;
+        max-width: none;
+      }
+
+      .mktb-standard .mktbs-call-out .mktbs-title {
+        margin: 0 0 5px;
+      }
+
+      .mktb-lines .img-ves img {
+        float: right;
+        margin: 0 20px 0 0;
+      }
+    }
+
+    @media only screen and (min-width:992px) {
+      .mktb-standard .mktbs-call-out {
+        width: 50%;
+      }
+
+      #mkt-banner {
+        margin-top: -14px;
+      }
+
+      .mktb-standard .mktbs-call-out {
+        top: 47%;
+        transform: translateY(-50%);
+      }
+
+      #mkt-banner.mktb-lines {
+        margin-bottom: 25px;
+      }
+
+      .mktb-lines .top-line {
+        height: 6px;
+      }
+
+      .mktb-lines .btm-line {
+        height: 8px;
+      }
+    }
+
+    @media only screen and (min-width:1200px) {
+      .mktb-standard .mktbs-call-out {
+        width: 45%;
+      }
+    }
+
+
+    /*********************************************************************
+    IN PAGE NAVIGATION
+    *********************************************************************/
+
+
+    .ipn-fixed #nav-blur {
+      visibility: visible;
+      top: 0;
+    }
+
+    .mini-nav.ipn-fixed #nav-blur {
+      top: -30px;
+    }
+
+    .mobile-nav-toggle {
+      position: relative;
+      width: 100%;
+      margin: -21px 0 20px;
+      font-size: 20px;
+      font-weight: 600;
+      background: #fff;
+      color: #666769;
+      text-align: center;
+      padding: 10px 0;
+      cursor: pointer;
+      z-index: 1000 !important;
+      -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+      -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+      box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+    }
+
+    html.mobile-open .mobile-nav-toggle, html.in-page-open .mobile-nav-toggle {
+      z-index: 10 !important;
+    }
+
+    .mobile-nav-toggle img {
+      width: 7px;
+    }
+
+    nav#in-page-nav {
+      width: 100%;
+      position: absolute;
+      top: 100px;
+      -webkit-transition: all .25s ease-in-out; /* Safari */
+      transition: all .25s ease-in-out;
+      z-index: 500;
+      display: none;
+    }
+
+    header.fixed ~ header.fixed ~ .page-content .mobile-nav-toggle {
+      position: fixed;
+      z-index: 500;
+    }
+
+    header.fixed ~ .page-content .mobile-nav-toggle {
+      top: 80px;
+      margin-top: 0;
+    }
+
+    nav#in-page-nav a.no-show {
+      display: none;
+    }
+
+    @media only screen and (min-width:992px) {
+      nav#in-page-nav {
+        display: block !important;
+        position: relative;
+        top: -25px;
+      }
+
+      .ipn-fixed nav#in-page-nav {
+        position: fixed;
+        top: 100px;
+        left: 0;
+      }
+
+      .mini-nav.ipn-fixed nav#in-page-nav {
+        top: 73px;
+      }
+    }
+
+    nav#in-page-nav .container {
+      overflow: visible;
+    }
+
+    nav#in-page-nav a {
+      font-size: 14px;
+      color: #333;
+      font-weight: 600;
+      padding: 10px 0;
+      text-decoration: none;
+      -webkit-transition: all .25s; /* Safari */
+      transition: all .25s;
+      border: 1px solid #707070;
+      border-top: 0;
+      border-left: 0;
+    }
+
+    nav#in-page-nav a:hover {
+      color: #007035;
+    }
+
+    nav#in-page-nav a:first-child {
+      padding-left: 0;
+    }
+
+    nav#in-page-nav .nav-col {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      background-color: rgb(230,230,230);
+      text-align: center;
+      -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+      -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+      box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+      -webkit-transition: all .5s; /* Safari */
+      border-left: 1px solid #707070;
+    }
+
+    nav#in-page-nav .nav-col .nav-close {
+      display: block;
+      background: #505050;
+      color: #fff;
+      width: 30px;
+      height: 30px;
+      line-height: 26px;
+      text-align: center;
+      border-radius: 50%;
+      position: absolute;
+      bottom: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0;
+      cursor: pointer;
+    }
+
+    nav#in-page-nav .nav-col.odd a:first-child {
+      grid-column: 1/3;
+    }
+
+    @media only screen and (min-width:992px) {
+      nav#in-page-nav .nav-col {
+        display: block;
+        background-color: #E6E6E6;
+        padding: 10px;
+        border: none;
+      }
+
+      nav#in-page-nav .nav-col:after {
+      }
+
+      nav#in-page-nav a {
+        margin: 0 10px;
+        border: none;
+      }
+
+      nav#in-page-nav a:hover {
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        text-decoration: none;
+      }
+
+      .nav-balencer {
+        height: 48px;
+        width: 100%;
+        display: none;
+      }
+
+      .mini-nav .navbalencer {
+        display: block;
+      }
+    }
+
+    /*********************************************************************
+    Loading Spinner
+    *********************************************************************/
+
+    .lds-spinner {
+      color: official;
+      display: inline-block;
+      position: relative;
+      width: 25px;
+      height: 25px;
+      top: 6px;
+      left: -26px;
+    }
+
+    .zip-loader .lds-spinner {
+      color: official;
+      display: inline-block;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      top: 15px;
+      left: 0;
+    }
+
+    .lds-spinner div {
+      transform-origin: 32px 12px;
+      animation: lds-spinner 1.2s linear infinite;
+    }
+
+
+    .zip-loader .lds-spinner div {
+      transform-origin: 10px 0;
+      animation: lds-spinner 1.2s linear infinite;
+    }
+
+
+    .lds-spinner div:after {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 29px;
+      width: 2px;
+      height: 5px;
+      border-radius: 20%;
+      background: #000;
+    }
+
+    .zip-loader .lds-spinner div:after {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 30px;
+      width: 12px;
+      height: 4px;
+      border-radius: 20%;
+      background: #000;
+    }
+
+    .lds-spinner div:nth-child(1) {
+      transform: rotate(0deg);
+      animation-delay: -1.1s;
+    }
+
+    .lds-spinner div:nth-child(2) {
+      transform: rotate(30deg);
+      animation-delay: -1s;
+    }
+
+    .lds-spinner div:nth-child(3) {
+      transform: rotate(60deg);
+      animation-delay: -0.9s;
+    }
+
+    .lds-spinner div:nth-child(4) {
+      transform: rotate(90deg);
+      animation-delay: -0.8s;
+    }
+
+    .lds-spinner div:nth-child(5) {
+      transform: rotate(120deg);
+      animation-delay: -0.7s;
+    }
+
+    .lds-spinner div:nth-child(6) {
+      transform: rotate(150deg);
+      animation-delay: -0.6s;
+    }
+
+    .lds-spinner div:nth-child(7) {
+      transform: rotate(180deg);
+      animation-delay: -0.5s;
+    }
+
+    .lds-spinner div:nth-child(8) {
+      transform: rotate(210deg);
+      animation-delay: -0.4s;
+    }
+
+    .lds-spinner div:nth-child(9) {
+      transform: rotate(240deg);
+      animation-delay: -0.3s;
+    }
+
+    .lds-spinner div:nth-child(10) {
+      transform: rotate(270deg);
+      animation-delay: -0.2s;
+    }
+
+    .lds-spinner div:nth-child(11) {
+      transform: rotate(300deg);
+      animation-delay: -0.1s;
+    }
+
+    .lds-spinner div:nth-child(12) {
+      transform: rotate(330deg);
+      animation-delay: 0s;
+    }
+
+    @keyframes lds-spinner {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    /*********************************************************************
+    PRODUCT DETAILS SECTION
+    *********************************************************************/
+
+    #label-downloads-cont {
+    }
+
+    #product-details {
+    }
+
+    #label-details-cont {
+      margin-bottom: 25px;
+    }
+
+    #product-details .pd-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255,255,255,.8);
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #product-details h1, #product-details h4 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #333;
+      margin: 0 0 5px;
+      line-height: 26px;
+    }
+
+    #product-details a.btn-label-dwld {
+      display: block;
+      margin-bottom: 15px;
+      padding-left: 40px;
+      position: relative;
+      -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+      -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+      box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+      background-color: #007035;
+      border: 3px solid #007035;
+      padding-right: 1px;
+    }
+
+    #product-details a.btn-label-dwld:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      background-color: #FFFFFF;
+      color: #007035;
+    }
+
+    #product-details a.btn-label-dwld span {
+      position: absolute;
+      top: 5px;
+      left: 6px;
+    }
+
+    #product-details a.btn-label-dwld span svg {
+      fill: #fff;
+      height: 30px;
+      width: 24px;
+    }
+
+    .dark-text #product-details a.btn-label-dwld span svg {
+      fill: #000;
+    }
+
+    #label-details-cont div {
+      position: relative;
+    }
+
+    .label-detail-single {
+      width: calc( 33.33% - 12px);
+      float: left;
+      padding: 14px 1% 5px;
+      background-color: #f5f5f5;
+      margin: 6px;
+      border: 1px solid #b5b5b5;
+      min-height: 145px;
+      cursor: pointer;
+      -webkit-transition: all .4s;
+      transition: all .4s;
+    }
+
+    .label-detail-single:hover {
+      background-color: #f5f5f5;
+    }
+
+    .label-detail-single.active {
+      cursor: default;
+      pointer-events: none;
+      background-color: #e6e6e6;
+      z-index: 100;
+      border-bottom-color: #e6e6e6;
+    }
+
+    .label-detail-single.disabled {
+      opacity: .25;
+      cursor: default;
+    }
+
+    .label-detail-single.disabled:hover {
+      background-color: #f5f5f5 !important;
+      border-color: #b5b5b5 !important;
+    }
+
+
+    .label-detail-single .lds-svg {
+      text-align: center;
+    }
+
+    .label-detail-single .lds-svg svg {
+      fill: #808285;
+      width: 50px;
+      height: 55px;
+    }
+
+    .label-detail-single.disabled:hover .lds-svg svg {
+      fill: #808285 !important;
+    }
+
+
+    .label-detail-single .lds-title {
+      font-size: 13px;
+      line-height: 18px;
+      font-weight: 700;
+      color: #000;
+      text-align: center;
+    }
+
+    .three-by-detail-container,
+    .six-by-detail-container {
+      width: calc(100% - 12px);
+      float: left;
+      min-height: 60px;
+      background-color: #e6e6e6;
+      display: block;
+      margin: -6px 6px 0;
+      display: none;
+      border: 1px solid #b5b5b5;
+      margin-top: -8px;
+      z-index: 1;
+    }
+
+    .three-by-detail-container.open,
+    .six-by-detail-container.open {
+      display: block;
+    }
+
+    .three-by-detail-container > div,
+    .six-by-detail-container > div {
+      display: none;
+    }
+
+    .three-by-detail-container .show,
+    .six-by-detail-container .show {
+      display: block;
+    }
+
+    .details-cont .btn-close {
+      display: block !important;
+      position: absolute !important;
+      top: 0;
+      right: 0;
+      font-weight: 700;
+      cursor: pointer;
+      height: 30px;
+      width: 30px;
+      z-index: 1000;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .states,
+    .crop-list {
+      padding: 10px;
+    }
+
+    .worker-safety, .pest-list {
+      padding: 25px;
+    }
+
+    .crop-list ul,
+    .states ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      -webkit-columns: 100px 2;
+      -moz-columns: 100px 2;
+      columns: 100px 2;
+    }
+
+    .crop-list ul li,
+    .states ul li {
+      font-size: 15px;
+      color: #000;
+      margin: 0 0 5px 0;
+    }
+
+    /*.crop-list ul,*/
+    .pest-list ul {
+      list-style: none;
+      margin: 0;
+      padding: 20px 10px 10px;
+      -webkit-columns: 100px 2;
+      -moz-columns: 100px 2;
+      columns: 100px 2;
+    }
+
+    /*.crop-list ul li,*/
+    .pest-list ul li {
+      font-size: 15px;
+      color: #000;
+      margin: 0 0 5px 0;
+    }
+
+    .states .state-list {
+      display: none;
+    }
+
+    .states .state-list.open {
+      display: block;
+    }
+
+
+    .crop-list .crop-lists {
+      display: none;
+    }
+
+    .crop-list .crop-lists.open {
+      display: block;
+    }
+
+
+
+    .state-btn-cont {
+      padding: 10px 0 15px;
+    }
+
+    a.toggle-states {
+      color: #000;
+      font-weight: 700;
+      font-size: 14px;
+      background-color: #fff;
+      text-decoration: none;
+      border-color: #fff;
+      border-width: 1px;
+      border-style: solid;
+      padding: 5px 8px;
+    }
+
+    a.toggle-states:hover {
+      border-color: #000;
+    }
+
+    a.toggle-states.active {
+      color: #fff;
+      cursor: default;
+      pointer-events: none;
+      background-color: #007035;
+    }
+
+    a.toggle-crops {
+      color: #000;
+      font-weight: 700;
+      font-size: 14px;
+      background-color: #fff;
+      text-decoration: none;
+      border-color: #fff;
+      border-width: 1px;
+      border-style: solid;
+      padding: 5px 8px;
+    }
+
+    a.toggle-crops:hover {
+      border-color: #000;
+    }
+
+    a.toggle-crops.active {
+      color: #fff;
+      cursor: default;
+      pointer-events: none;
+      background-color: #007035;
+    }
+
+
+    .product-use-rates,
+    .special-label-cont {
+      padding: 15px;
+    }
+
+    #spllabel {
+      padding-top: 20px !important;
+      padding-bottom: 35px !important;
+    }
+
+    #spllabel h3 {
+      margin-bottom: 15px !important;
+    }
+
+    .product-use-rates select,
+    .special-label-cont select {
+      width: 90%;
+      padding: 5px 10px;
+      font-size: 16px;
+    }
+
+    .product-use-rates .pur-cont p:first-child {
+      padding: 15px 0 0;
+    }
+
+    #pp-main-cont .product-use-rates .pur-cont p,
+    #pp-main-cont .worker-safety p {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+
+    #pp-main-cont .product-use-rates .pur-cont p.list-head {
+      margin-bottom: 0;
+    }
+
+    .product-use-rates .pur-cont ul {
+      list-style: none;
+      padding: 0 0 10px;
+      margin: 0;
+      -webkit-columns: 100px 2;
+      -moz-columns: 100px 2;
+      columns: 100px 2;
+    }
+
+    .product-use-rates .pur-cont ul li {
+      font-size: 15px;
+      color: #000;
+    }
+
+    .slc-results .sl-single h3 {
+      font-size: 18px;
+      line-height: 25px;
+      color: #000;
+    }
+
+    #pp-main-cont .slc-results .sl-single p {
+      font-size: 15px;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    #pp-main-cont .slc-results a.btn-pp {
+      display: block;
+      margin: 25px 0 10px;
+      text-align: center;
+      max-width: 350px;
+    }
+
+    @media only screen and (min-width:350px) {
+      .label-detail-single .lds-svg svg {
+        width: 70px;
+        height: 75px;
+      }
+    }
+
+
+    @media only screen and (min-width:500px) {
+      .states ul, .crop-list ul, .pest-list ul {
+        -webkit-columns: 100px 3;
+        -moz-columns: 100px 3;
+        columns: 100px 3;
+      }
+    }
+
+    @media only screen and (min-width:768px) {
+      #label-details-cont {
+        margin-bottom: 0;
+      }
+
+      .label-detail-single .lds-title {
+        font-size: 13px;
+      }
+
+      .label-detail-single {
+        width: calc( 16.66% - 12px);
+        min-height: 137px;
+        /*background-color:transparent;
+        border:none;*/
+        -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+      }
+
+      .label-detail-single:hover {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+
+      .label-detail-single.active {
+        cursor: default;
+        pointer-events: none;
+        background-color: #f5f5f5;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: #f5f5f5 !important;
+        border-top-color: #404040 !important;
+        border-right-color: #404040 !important;
+        border-left-color: #404040 !important;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+
+      ul.scol {
+        width: 50%;
+        float: left;
+      }
+
+      .three-by-detail-container {
+        display: none;
+      }
+
+      .six-by-detail-container {
+        border: none;
+        background-color: #f5f5f5;
+        border: 1px solid #404040;
+      }
+
+      .states ul,
+      .pest-list ul {
+        padding: 15px;
+        -webkit-columns: 100px 4;
+        -moz-columns: 100px 4;
+        columns: 100px 4;
+      }
+
+      .crop-list ul {
+        padding: 15px;
+        -webkit-columns: 100px 3;
+        -moz-columns: 100px 3;
+        columns: 100px 3;
+      }
+
+      .product-use-rates select,
+      .special-label-cont select {
+        width: 60%;
+      }
+
+      .product-use-rates .pur-cont ul {
+        -webkit-columns: 100px 3;
+        -moz-columns: 100px 3;
+        columns: 100px 3;
+      }
+
+      #pp-main-cont .slc-results hr {
+        display: none;
+      }
+
+      #pp-main-cont .slc-results .sl-single {
+        width: 48%;
+        float: right;
+        padding: 15px;
+      }
+
+      .label-detail-single .lds-svg svg {
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+
+    @media only screen and (min-width:992px) {
+      .label-detail-single {
+        min-height: 125px;
+      }
+
+      .states ul {
+        -webkit-columns: 100px 5;
+        -moz-columns: 100px 5;
+        columns: 100px 5;
+      }
+
+      .crop-list ul,
+      .pest-list ul {
+        -webkit-columns: 100px 4;
+        -moz-columns: 100px 4;
+        columns: 100px 4;
+      }
+
+      .product-use-rates .pur-cont ul {
+        -webkit-columns: 100px 4;
+        -moz-columns: 100px 4;
+        columns: 100px 4;
+      }
+
+      #pp-main-cont .worker-safety p {
+        width: 100%;
+      }
+    }
+
+    @media only screen and (min-width:1200px) {
+      .states .state-btn-cont {
+        width: 18%;
+        float: left;
+      }
+
+      .states .state-btn-cont a {
+        display: block;
+        margin: 10px;
+        text-align: center;
+      }
+
+      .states ul {
+        width: 100%;
+        float: left;
+      }
+
+      .crop-list .state-btn-cont {
+        width: 18%;
+        float: left;
+      }
+
+      .crop-list .state-btn-cont a {
+        display: block;
+        margin: 10px;
+        text-align: center;
+      }
+
+      .crop-list ul {
+        width: 100%;
+        float: left;
+      }
+
+      .pest-list li {
+        list-style: none;
+      }
+      /*.pest-list h4{
+      padding:15px;
+    }*/
+  }
+
+
+  /*********************************************************************
+  PRODUCT BENEFITS SECTION
+  *********************************************************************/
+  #pp-main-cont #product-benefits .sec-title {
+    padding: 15px;
+  }
+
+  #pp-main-cont #product-benefits .sec-title {
+    padding: 15px;
+  }
+
+  #pp-main-cont #product-benefits .sec-title h2 {
+    padding: 0px 15px;
+  }
+
+  #pp-main-cont #product-benefits .sec-title .header-line {
+    top: 35px;
+    width: calc( 100% - 60px );
+    left: 30px;
+  }
+
+
+  #product-benefits .pb-copy-cont {
+    margin: 0 15px 30px;
+    background-color: white;
+    padding: 20px 0 20px 0;
+  }
+
+  #product-benefits .pb-copy-cont h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #333;
+    text-align: center;
+  }
+
+  #product-benefits .pb-copy-cont ul {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #product-benefits .pb-copy-cont p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #product-benefits .pb-copy-cont ul li {
+    color: #333;
+    margin-bottom: 10px;
+    list-style-type: disc;
+  }
+
+  #product-benefits .pb-copy-cont ul li em {
+    font-style: italic;
+  }
+
+  @media only screen and (min-width:992px) {
+
+
+    #product-benefits .pb-copy-cont h3 {
+      margin: 15px auto;
+    }
+  }
+
+  @media only screen and (min-width:1200px) {
+
+    #product-benefits .pb-copy-cont h3 {
+      width: 50%;
+    }
+  }
+
+
+  /*********************************************************************
+  SUPPORTING DOCUMNNETS SECTION
+  *********************************************************************/
+  #supporting-docs {
+  }
+
+  #supporting-docs .doc-links a {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 7px 0 10px 27px;
+    position: relative;
+    text-decoration: none;
+  }
+
+  #supporting-docs .doc-links a:hover {
+    text-decoration: underline;
+  }
+
+  #supporting-docs .doc-links a span {
+    position: absolute;
+    top: 6px;
+    left: 0;
+  }
+
+  #supporting-docs .doc-links i {
+    padding-right: 20px;
+  }
+
+  #supporting-docs .doc-links a span svg {
+    fill: #000;
+    height: 23px;
+    width: 18px;
+  }
+
+
+  #where-to-buy .row-eq-height {
+    position: relative;
+  }
+
+  #performance {
+  }
+
+  #performance hr {
+    border-top: 5px solid #f5f5f5;
+  }
+
+  #openTemplate {
+  }
+
+  #openTemplate hr {
+    border-top: 5px solid #f5f5f5;
+  }
+  #openTemplate2 {
+  }
+
+  #openTemplate2 hr {
+    border-top: 5px solid #f5f5f5;
+  }
+
+  .intro-copy {
+    text-align: center;
+  }
+
+  .intro-copy h3 {
+    position: relative;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 20px;
+  }
+
+  .intro-copy.title-bar h3 {
+    display: inline-block;
+    background: #fff;
+    padding: 20px;
+  }
+
+  .intro-copy.title-bar .tb-bar {
+    height: 2px;
+    width: calc(100% - 30px);
+    display: block;
+    background: #cccccc;
+    margin: 0 auto;
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+
+
+
+  #pp-main-cont .intro-copy p {
+    margin-bottom: 0;
+  }
+
+  .testimonial-container {
+    width: 100%;
+    border: 1px solid #b5b5b5;
+    -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.2);
+    margin: 0 0 50px;
+    padding: 30px;
+  }
+
+  .testimonial-container .col-sm-3 {
+    height: 100%;
+  }
+
+  .testimonial-sidebar {
+    height: 100%;
+    background: #f5f5f5;
+  }
+
+  .testimonial-select {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    -webkit-transition: background-color .25s;
+    transition: background-color .25s;
+  }
+
+  .testimonial-select:hover {
+    background-color: #E8E8E8;
+  }
+
+  .testimonial-select.pc-active {
+    font-weight: 600;
+    color: #fff;
+    border-bottom: 3px solid #b5b5b5;
+    cursor: default;
+  }
+
+  .testimonial {
+    display: none;
+    position: absolute;
+    left: -100%;
+  }
+
+  .testimonial.pc-active {
+    display: block;
+    position: relative;
+    left: 0;
+  }
+
+  #pp-main-cont .testimonial p {
+    width: 100%;
+    font-style: italic;
+    margin: 30px 0 0 0;
+  }
+
+  .testimonial-image {
+    text-align: center;
+    padding-right: 15px;
+  }
+
+  .testimonial-nav, .carousel-mobile-nav {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .testimonial-nav span, .carousel-mobile-nav span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .testimonial-nav span:first-child, .carousel-mobile-nav span:first-child {
+    margin-left: 0;
+  }
+
+  .testimonial-nav span.pc-active, .carousel-mobile-nav span.pc-active {
+    border: none;
+  }
+
+  .sprout-video-container .lds-spinner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(4);
+  }
+
+  .sprout-video-container .lds-spinner div {
+    transform-origin: 12px 12px;
+  }
+
+  .sprout-video-container .lds-spinner div:after {
+    left: 12px;
+    background: #fff;
+  }
+
+  .load-more-videos {
+    text-align: center;
+    display: none;
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (min-width:768px) {
+    .testimonial-container {
+      padding: 0;
+    }
+
+    .testimonial {
+      padding: 30px 30px 30px 0;
+    }
+  }
+
+  .carousel-container {
+    position: relative;
+    padding: 0;
+    margin: 50px 0;
+  }
+
+  #pp-main-cont .carousel-container p {
+    margin: 15px 0;
+  }
+
+  .carousel-item {
+    display: none;
+  }
+
+  .carousel-item.active {
+    display: block;
+  }
+
+  .carousel-nav {
+    display: none;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    border-bottom: 15px solid transparent !important;
+    border-top: 15px solid transparent !important;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .carousel-nav.left {
+    border-right-style: solid;
+    border-right-width: 10px;
+    left: 0;
+  }
+
+  .carousel-nav.right {
+    border-left-style: solid;
+    border-left-width: 10px;
+    right: 0;
+  }
+
+  @media only screen and (min-width:768px) {
+    .carousel-container {
+      padding: 0 25px;
+    }
+
+    .carousel-nav {
+      display: block;
+    }
+  }
+
+
+  /*********************************************************************
+  RELATED PRODUCTS SECTION
+  *********************************************************************/
+  #related-products {
+    margin-top: 20px;
+  }
+
+  #related-products .rel-prod-bk {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 40px);
+    z-index: -1;
+  }
+
+  #related-products .sec-title .half-line {
+    height: 2px;
+    display: block;
+    position: absolute;
+    background: #fff;
+    top: 30px;
+  }
+
+  .dark-text #related-products .sec-title .half-line {
+    background: #000;
+  }
+
+  #related-products .sec-title .half-line.left {
+    width: calc(50% - 155px);
+    left: 15px;
+  }
+
+  #related-products .sec-title .half-line.right {
+    width: calc(50% - 155px);
+    right: 15px;
+  }
+
+
+  #related-products .rp-cont {
+    padding: 0 15px 15px;
+  }
+
+  #related-products .rp-cont a.rp-single {
+    padding: 15px;
+    margin-bottom: 15px;
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+  }
+
+  #related-products .rp-cont .rp-single img {
+    height: 50px;
+    margin-bottom: 8px;
+  }
+
+  #related-products .rp-cont .rp-single .rp-cta {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+
+
+  @media only screen and (min-width:768px) {
+    #related-products {
+    }
+
+    #related-products .rel-prod-bk {
+      /*background-image: url(../images/bkg-related-products.jpg);*/
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+
+    #related-products .rp-cont {
+      display: flex;
+    }
+
+    #related-products .rp-cont a.rp-single {
+      width: 31.3%;
+      margin: 0 1%;
+      float: left;
+    }
+
+    #related-products .rp-cont.rp-two a.rp-single {
+      width: 50%;
+      float: left;
+    }
+
+    .dark-text #related-products .sec-title .half-line {
+      background: #fff;
+    }
+
+    #pp-main-cont #related-products .sec-title h2.title-white {
+      color: #fff;
+    }
+  }
+
+  /*********************************************************************
+  SYNGENTA NEWS SECTION
+  *********************************************************************/
+
+  #syngenta-news {
+  }
+
+  #syngenta-news h3 {
+    color: #000;
+    margin-bottom: 5px;
+  }
+
+  #syngenta-news .btn-pp {
+    display: block;
+    text-align: center;
+  }
+
+  a.article-single {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a.article-single article {
+    margin-bottom: 25px;
+  }
+
+  a.article-single article .article-img {
+    display: none;
+  }
+
+  a.article-single article .article-copy h4 {
+    color: #000;
+    margin: 0 0 5px;
+    text-decoration: underline;
+  }
+
+  a.article-single article .article-copy p {
+    margin-bottom: 0 !important;
+  }
+
+  #syngenta-news #thrive-news,
+  #syngenta-news #kmgm-news {
+    margin-bottom: 40px;
+  }
+
+  .news-cont .btn-pp {
+    margin-top: 25px;
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    a.article-single article .article-img {
+      display: block;
+      width: 150px;
+      height: 150px;
+      float: left;
+      margin-right: 15px;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      -webkit-transition: all .75s;
+      transition: all .75s;
+    }
+
+    a.article-single:hover article .article-img {
+      transform: scale(1.1);
+    }
+
+    a.article-single article .article-copy {
+      width: calc(100% - 180px);
+      float: left;
+      padding-top: 15px;
+    }
+
+    #syngenta-news .btn-pp {
+      max-width: 280px;
+    }
+  }
+
+  @media only screen and (min-width:768px) {
+    a.article-single article .article-copy {
+      padding-top: 0;
+    }
+
+    #syngenta-news .blog-descriptor {
+      height: 156px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    #syngenta-news .blog-descriptor {
+      height: 110px;
+    }
+  }
+
+  .image-copy {
+    margin: 50px 0;
+  }
+
+  .image-copy .ic-cont .img-cont img {
+    margin: 0 auto;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .image-copy .ic-cont {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+    }
+
+    .image-copy .ic-cont.img-right {
+      flex-direction: row-reverse;
+    }
+
+    .image-copy .ic-cont .img-cont {
+      flex: 1 0 60%;
+      padding: 0 15px 0 0;
+    }
+
+
+    .image-copy .ic-cont.img-right .img-cont {
+      padding: 0 0 0 15px;
+    }
+
+    .image-copy .ic-cont .copy-cont {
+      flex: 1 0 40%;
+      padding: 0 0 0 15px;
+    }
+
+    .image-copy .ic-cont.img-right .copy-cont {
+      padding: 0 15px 0 0;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+  }
+
+  .sprout-container,
+  .youtube-container {
+    margin-top: -30px;
+  }
+
+  .addtotop {
+    margin-top: 20px;
+  }
+
+  .seed-treatment #product-benefits {
+    margin-top: -30px;
+  }
+
+
+  /*********************************************************************
+  video banner
+  *********************************************************************/
+
+  .hv-cover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    min-height: 400px;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .hv-cover video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  @media only screen and (min-width:768px) {
+
+    .mktb-standard.mktb-video-banner .container {
+      height: 500px;
+    }
+  }
+
+  /*Tavium Css*/
+  .tav-btn-cont {
+    margin-bottom: 30px;
+    display: block;
+  }
+
+  a.tav-btn {
+    display: block;
+    background-color: rgb(92,184,178);
+    border: 3px solid rgb(92,184,178);
+    color: #000000;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin: 0 auto 20px;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+    -webkit-transition: all .5s; /* Safari */
+    transition: all .5s;
+  }
+
+
+
+  a.tav-btn .tav-icon {
+    width: 100px;
+    display: block;
+    float: left;
+    padding-right: 15px;
+  }
+
+  a.tav-btn span {
+    display: block;
+    width: 58%;
+    float: left;
+  }
+
+  a.tav-btn b.arrow {
+    padding-left: 0;
+    -webkit-transition: all .5s; /* Safari */
+    transition: all .5s;
+  }
+
+
+  a.tav-btn:hover {
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  a.tav-btn:hover b.arrow {
+    padding-left: 8px;
+  }
+
+
+  @media only screen and (min-width:350px) {
+    a.tav-btn span {
+      width: 63%;
+    }
+  }
+
+  @media only screen and (min-width:426px) {
+    a.tav-btn span {
+      width: 70%;
+    }
+  }
+
+
+
+  @media only screen and (min-width:768px) {
+    .tav-btn-cont {
+      display: flex;
+    }
+
+    a.tav-btn {
+      text-align: center;
+      width: 31.33%;
+      margin: 0 1%;
+      padding: 20px 20px 10px;
+    }
+
+    a.tav-btn .tav-icon {
+      width: 75px;
+      display: block;
+      float: none;
+      padding-right: 0;
+      margin: 0 auto 15px;
+    }
+
+    a.tav-btn span {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width:992px) {
+    a.tav-btn .tav-icon {
+      width: 70px;
+      float: left;
+      padding-right: 18px;
+    }
+
+    a.tav-btn span {
+      float: left;
+      width: 70%;
+      text-align: left;
+    }
+  }
+
+  @media only screen and (min-width:1200px) {
+
+    a.tav-btn .tav-icon {
+      width: 100px;
+      display: block;
+      float: left;
+      padding-right: 18px;
+    }
+
+    a.tav-btn span {
+      width: 65%;
+    }
+  }
+
+
+  #tavium-form input, #tavium-form select {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid rgb(92,184,178);
+    padding: 0 5px;
+    margin-bottom: 20px;
+  }
+
+  #tavium-form input[type=submit] {
+    font-weight: 600;
+    border: 2px solid rgb(92,184,178);
+  }
+
+  #tavium-form input[type=submit]:hover {
+    background: #fff;
+    border: 2px solid rgb(92,184,178);
+  }
+
+  #tavium-form label {
+    display: block;
+  }
+
+  #tavium-form input.error, #tavium-form select.error {
+    border: 1px solid red;
+  }
+
+  #tavium-form .thank-you {
+    display: none;
+  }
+
+  #tavium-form .thank-you b {
+    display: block;
+  }
+
+
+
+  /****************************************
+  SELECT 2 Style overrides
+  ****************************************/
+
+  .select2-results__option {
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .select2-selection__rendered {
+    line-height: 31px !important;
+  }
+
+  .select2-container .select2-selection--single {
+    height: 45px !important;
+  }
+
+  .select2-selection__arrow {
+    height: 34px !important;
+  }
+
+  .select2-container--default .select2-results > .select2-results__options {
+    max-height: 400px;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__rendered,
+  .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+
+  /****************************************
+  single iframe responsive video
+  ****************************************/
+
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+
+
+  /*****ADDED BY NATHAN FOR THR MOCKUPS******/
+  #product-benefits .container, #product-benefits .container .title-white, #product-details .sec-title .header-line,
+  #supporting-docs .sec-title .header-line, #where-to-buy .sec-title .header-line,
+  #syngenta-news .sec-title .header-line, #packaging .sec-title .header-line, #videos .sec-title .header-line,
+  #performance .sec-title .header-line, #testimonials .sec-title .header-line,
+  #openTemplate .sec-title .header-line, #openTemplate2 .sec-title .header-line {
+    background-color: #007035;
+  }
+
+  .news-cont .single-articles ul li {
+    list-style: none;
+    margin-top: 0px;
+    clear: both;
+    padding-bottom: 20px;
+  }
+
+  .news-cont .single-articles ul {
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .news-cont .single-articles ul li a {
+    font-weight: 700;
+    color: #000066;
+  }
+
+  .news-cont .single-articles ul li p {
+    overflow: hidden;
+  }
+
+  .news-cont .single-articles img {
+    float: left;
+    margin-right: 20px;
+    white-space: nowrap;
+    padding-bottom: 25px;
+  }
+
+  @media screen and (max-width: 650px) {
+
+    .news-cont .single-articles img {
+      display: none;
+    }
+
+    .news-cont .single-articles ul li {
+      margin-top: 0px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .related-prod-turf {
+    /*background-image: url(../../related-products-bground.jpg);*/
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #007035;
+    margin-bottom: 20px;
+  }
+
+
+  .flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .flexbox-container > div {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFF;
+    margin-right: 20px;
+  }
+
+  .flexbox-container > div:first-child {
+    margin-left: 20px;
+  }
+
+  .flexbox-container img {
+    max-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .flexbox-container p {
+    text-align: left;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .flexbox-container {
+      display: block;
+      width: 100%;
+    }
+
+    .flexbox-container > div {
+      display: block;
+      margin-left: 20px;
+      width: 98%;
+      margin-bottom: 20px;
+    }
+
+    .flexbox-container > div:last-child {
+      margin-bottom: 0px;
+    }
+
+    .related-prod-turf {
+      background-image: none;
+      background-color: #007035;
+    }
+  }
+
+  .pagenavmnu {
+    margin-top: 25px !important;
+  }
+
+  #where-to-buy li {
+    margin-bottom: 20px;
+    list-style: none;
+  }
+
+  #where-to-buy li:last-child {
+    margin-bottom: 0px;
+  }
+
+  #where-to-buy ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  #where-to-buy a {
+    color: #000066;
+  }
+
+  .where-to-buy-content {
+    margin-top: -15px;
+  }
+
+
+  /******VIDEOS SECTION*****/
+
+  .play-video-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*z-index: 500;*/
+  }
+
+  .prod-video-title {
+    padding-top: 10px;
+    min-height: 90px;
+  }
+
+  /****PERFORMANCE SECTION****/
+
+  .prod-performance-data h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+
+  /*********************************************************************
+  PACKAGING SECTION
+  *********************************************************************/
+  #packaging {
+  }
+
+
+  /*****END ADDED BY NATHAN FOR THR MOCKUPS******/
+
+  @media only screen and (max-width:990px) {
+    .row {
+      margin-left: 0px !important;
+    }
+
+    .flexbox-container > div {
+      width: 100% !important;
+      margin-left: 0px !important;
+    }
+  }
+
+  .approvedmap {
+    margin-bottom: -140px !important;
+  }
+
+  #lblprovince {
+    padding: 15px !important;
+  }
+
+  #container {
+    height: 500px !important;
+    padding-bottom: 84.25% !important;
+  }
+
+  @media (max-width: 1200px) {
+    #container {
+      padding-bottom: 88.25% !important;
+    }
+  }
+
+  @media only screen and (min-device-width : 300px) and (max-device-width : 667px) {
+    /*.tabContent ul li map {
+    margin-bottom: -20px;
+  }*/
+  .approvedmap {
+    margin-bottom: -80px !important;
+  }
+
+  /*.datamap {
+  margin-top: -20px !important;
+  height: 230px !important;
+  top: 80px;
+}*/
+.datamap {
+  margin-top: -78px !important;
+  height: 272px !important;
+  top: 80px;
+}
+
+#container {
+  padding-bottom: 98% !important;
+  height: 430px !important;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  .approvedmap {
+    margin-bottom: -80px !important;
+  }
+
+
+
+  #container {
+    padding-bottom: 80% !important;
+  }
+}
+
+.odd {
+  margin-left: 15px !important;
+}
+
+@media only screen and (max-width:990px) {
+  #ctl00_divLegel {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 990px) {
+  #containerState .datamap {
+    height: 450px !important;
+  }
+
+  #openTemplate .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+  #openTemplate2 .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 765px) {
+  #containerState .datamap {
+    height: 250px !important;
+  }
+}
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1400px) {
+  /*#containerState .datamap {
+  height: 500px !important;
+}*/
+#containerState .datamap {
+  height: 600px !important;
+  width: 1200px;
+}
+}
+
+#pp-main-cont p.footnote {
+}
+
+.legal-cont p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+  margin: 0 0 10px;
+}
+
+/*22 Jan 2020 Added by Raja*/
+@media only screen and (min-device-width : 1951px) {
+  #containerStateMobile .datamap {
+    height: 630px !important;
+  }
+
+  #containerState .datamap {
+    height: 630px !important;
+  }
+}
+/*end 22 Jan 2020 Added by Raja*/
+
+@media only screen and (min-device-width : 1400px) and (max-device-width : 1950px) {
+  #containerState .datamap {
+    height: 630px !important;
+  }
+
+  #performance .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+
+  #openTemplate .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+  #openTemplate2 .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+  }
+}
+
+@media screen\0 {
+
+  /*.datamap {
+  margin-top: 290px !important;
+  overflow: visible !important;
+}*/
+/*.six-by-detail-container {
+height: 970px !important;
+}*/
+
+}
+
+@media only screen and (max-device-width : 768px) {
+  .container {
+    padding-left: 0px !important;
+  }
+}
+
+.label-detail-single.active-turf svg {
+  fill: #007035 !important;
+}
+
+.label-detail-single.active-ornamental svg {
+  fill: #b10c5b !important;
+}
+
+.datamap_border_top {
+  border-top: none;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 900px) {
+  nav#in-page-nav {
+    top: 209px !important;
+  }
+
+  .mobile-nav-toggle {
+    margin: 0px 0 20px;
+  }
+  /*#performance .row {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}*/
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 700px) {
+  nav#in-page-nav {
+    top: 65px !important;
+  }
+
+  .mobile-nav-toggle {
+    margin: 0px 0 20px;
+  }
+}
+
+.supporting-icon {
+  padding-left: 25px;
+}
+
+.supporting-text {
+  padding-left: 60px;
+}
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1970px) {
+.doc-links {
+margin-bottom: 5px;
+}
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 700px) {
+.doc-links {
+margin-bottom: 30px;
+}
+}*/
+#related-products .container {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1142px;
+  padding: 0;
+}
+
+html.mobile-open #m-menu {
+  position: fixed;
+}
+
+@media only screen and (max-device-width: 990px) and (min-device-width: 768px) {
+
+  #performance .row .row {
+    margin-left: -15px !important;
+  }
+
+  #performance .container .container .row {
+    margin-left: -15px !important;
+    margin-right: 0px !important;
+  }
+  #openTemplate .row .row {
+    margin-left: -15px !important;
+  }
+
+  #openTemplate .container .container .row {
+    margin-left: -15px !important;
+    margin-right: 0px !important;
+  }
+
+  #openTemplate2 .row .row {
+    margin-left: -15px !important;
+  }
+
+  #openTemplate2 .container .container .row {
+    margin-left: -15px !important;
+    margin-right: 0px !important;
+  }
+}
+
+.grid-container-three {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container-one {
+  display: grid;
+  grid-template-columns: auto;
+  /*grid-gap: 10px;*/
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container-two {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container-four {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid black;*/
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid-container > div {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFF;
+  margin-right: 20px;
+}
+
+/*.grid-container > div:first-child {
+margin-left: 20px;
+}*/
+
+.grid-container img {
+  max-height: 50px;
+  margin-bottom: 20px;
+}
+
+.grid-container p {
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: block;
+    width: 100%;
+  }
+
+  .grid-container > div {
+    display: block;
+    margin-left: 20px;
+    width: 98%;
+    margin-bottom: 20px;
+  }
+
+  .grid-container > div:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width:990px) {
+
+  .grid-container > div {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media (min-width:250px) {
+
+  #relatedProds .col-xs-12 {
+    flex: 0 0 auto;
+    max-width: 99%;
+    margin-left: 2px !important;
+  }
+}
+
+@media (min-width:720px) {
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%
+  }
+
+  .col-sm-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%
+  }
+
+  #relatedProds .col-sm-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+  }
+
+  #relatedProds .col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%
+  }
+
+  #relatedProds .col-sm-6 {
+    flex: 0 0 auto;
+    max-width: 48.5%;
+    margin: 5px !important;
+  }
+
+
+
+  #relatedProds .col-sm-12 {
+    flex: 0 0 auto;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:780px) {
+
+
+  #relatedProds .col-md-3 {
+    flex: 0 0 auto;
+    max-width: 24.1%;
+    margin: 5px !important;
+  }
+
+  #relatedProds .col-md-4 {
+    flex: 0 0 auto;
+    max-width: 32.1%;
+    margin: 5px !important;
+  }
+}
+
+@media (min-width:1050px) {
+
+  #relatedProds .col-lg-3 {
+    flex: 0 0 auto;
+    max-width: 24%;
+    margin: 5px !important;
+  }
+
+  #relatedProds .col-lg-4 {
+    flex: 0 0 auto;
+    max-width: 32.41%;
+    margin: 5px !important;
+  }
+
+  #relatedProds .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+  }
+}
+
+@media (min-width:1200px) {
+
+
+  #relatedProds .col-xl-3 {
+    flex: 0 0 auto;
+    max-width: 24%;
+    margin: 5px !important;
+  }
+
+  #relatedProds .col-xl-4 {
+    flex: 0 0 auto;
+    max-width: 32.41%;
+    margin: 5px !important;
+  }
+}
+
+.wrapper-container {
+  height: 100%;
+}
+
+.wrapper-row {
+  display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  margin: -10px 0 0 -10px;
+}
+
+.wrapper-fullcontent p {
+  text-align: justify;
+}
+
+.wrapper-fullcontent img {
+  display: initial;
+}
+
+@media (min-width:250px) {
+  .wrapper-fullcontent {
+    display: inline-block;
+    background: #fff;
+    margin: 10px 0 0 10px;
+    flex-grow: 1;
+    width: calc(100% * (1/1) - 10px - 1px);
+    padding: 20px;
+  }
+}
+
+@media (min-width:600px) {
+  .wrapper-fullcontent {
+    display: inline-block;
+    background: #fff;
+    margin: 10px 0 0 10px;
+    flex-grow: 1;
+    width: calc(100% * (1/2) - 10px - 1px);
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+.flex-wrap {
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important
+}
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important
+}
+
+
+.flexbox-container p {
+  margin: 0 0 10px;
+}
+
+#faq .sec-title .header-line {
+  height: 2px;
+  width: calc( 100% - 30px );
+  display: block;
+  position: absolute;
+  top: 30px;
+  z-index: 20;
+  background-color: #007035;
+}
+
+.margin-top-20 {
+  margin-top: -20px !important;
+}
+/*@media only screen and (min-device-width: 720px)  and (orientation:landscape) {
+
+#relatedProds .col-sm-6 {
+flex: 0 0 auto;
+max-width: 46.5%;
+margin: 5px !important;
+
+}
+}*/
+/*@media only screen and (min-device-width: 720px)  and (orientation:portrait) {
+
+#relatedProds .col-sm-6 {
+flex: 0 0 auto;
+max-width: 48.5%;
+margin: 5px !important;
+}
+}
+.equal-height{
+height:calc(100% - 20px);
+}
+html{
+height:100%;
+}*/
+
+
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="css/smallpacks.css">
+
+<script type="text/javascript">
+  function hide_menu() {
+    document.getElementById('mm-menu-container').style.visibility = "hidden";
+    document.getElementById('data-pane-1').style.visibility = "hidden";
+    document.getElementById('data-pane-2').style.visibility = "hidden";
+    document.getElementById('data-pane-3').style.visibility = "hidden";
+    document.getElementById('data-pane-4').style.visibility = "hidden";
+    document.getElementById('data-pane-5').style.visibility = "hidden";
+  }
+
+  function show_menu() {
+    document.getElementById('mm-menu-container').style.visibility = "visible";
+    document.getElementById('data-pane-1').style.visibility = "visible";
+    document.getElementById('data-pane-2').style.visibility = "visible";
+    document.getElementById('data-pane-3').style.visibility = "visible";
+    document.getElementById('data-pane-4').style.visibility = "visible";
+    document.getElementById('data-pane-5').style.visibility = "visible";
+  }
+</script>
+<div class="wrapper">
+  <!--=== Breadcrumbs ===-->
+  <div id="breadCrumbs1" class="breadcrumbs breadcrumbs-light">
+    <div class="container">
+      <h1 class="pull-left">Small Packs Solutions</h1>
+      <ul class="pull-right breadcrumb">
+        <li><a href="/Default.aspx">Home</a></li>
+        <li>Products</li>
+        <li class="active">Small Packs</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="page-content">
+
+  <div class="mobile-nav-toggle visible-xs visible-sm">
+    Go to Section
+    <img src="../assets/new-product-pages/link-arrow.png">
+  </div>
+
+  <div id="pp-main-cont">
+    <div style="height: 14px;" class="hidden-sm hidden-xs"></div>
+    <section class="mktb-standard" id="mkt-banner">
+      <div class="mktb-mobile-bk" style="background-image:url('https://www.greencastonline.com/smallpacks/images/smallpacks-hero.jpg');">&nbsp;</div>
+      <div class="mktb-bk" style="background-image:url('images/smallpacks-hero.jpg');">&nbsp;</div>
+      <div class="container">
+        <div class="row">
+          <div class="mktbs-call-out pc-border">
+            <span class="mktbs-title">The control you need in the size you want</span>
+            <p>Small packaging sizes of select professional lawn and ornamentals products provide the control you need for jobs of all sizes.</p>
+            <ul>
+              <li>Order only what you need</li>
+              <li>Expand your services</li>
+              <li>Increase revenue and stay competitive</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <nav id="in-page-nav">
+      <div class="container">
+        <div class="row">
+          <div class="nav-col even" id="pageNavMenu">
+            <a href="#insecticides" id="ipnInsecticides">Insecticides</a>
+            <a href="#herbicides" id="ipnHerbicides">Herbicides</a>
+            <a href="#fungicides" id="ipnFungicides">Fungicides</a>
+            <a href="#pgrs" id="ipnPRGs">PRGs</a>
+            <!--<a href="#marketingmaterials" id="ipnMarketingMaterials">Marketing Materials</a>-->
+            <span class="nav-close visible-xs visible-sm">x</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <div class="panel-group" id="accordion1">
+
+      <div class="panel panel-default">
+        <section id="insecticides" class="ipn-ele">
+          <div class="hidden-xl hidden-lg hidden-md" style="height:20px"></div>
+          <div class="container">
+            <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" class="firstAngle">
+              <div class="row">
+                <div class="sec-title col-xs-12">
+                  <div class="header-line"></div>
+                  <h2>Insecticides</h2>
+                </div>
+              </div>
+            </a>
+
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="panel">
+
+                  <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwoOne" class="secondAngle">
+                    <h3>Acelepryn<sup>&reg;</sup> Insecticide</h3>
+                  </a>
+
+                  <div id="collapseTwoOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                      <div class="row product-band">
+                        <div class="col-sm-4 product-info">
+                          <div class="product-info-inner">
+                            <img src="images/Acelepryn_Logo_RGB.svg" />
+                            <h3>Acelepryn<sup>&reg;</sup> Insecticide</h3>
+                            <p class="product-size">4 oz. bottle</p>
+                            <p class="product-coverage">0.18 oz./1,000 ft.<sup>2</sup> covers 21,780 ft.<sup>2</sup></p>
+                            <p class="product-coverage">0.09 oz./1,000 ft.<sup>2</sup> covers 43,560 ft.<sup>2</sup></p>
+                            <img src="images/Acelepryn_Product.png" />
+                          </div>
+                        </div>
+                        <div class="col-sm-8 product-details">
+                          <div class="product-details-inner">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <ul class="product-checklist">
+                                  <li>Provides long-lasting control of grubs, billbugs, turf caterpillars and more on turf and landscape ornamentals</li>
+                                  <li>Shows no adverse effects on beneficial, non-target organisms like honey bees<sup>1</sup></li>
+                                  <li>Exceeds expectations of 94% of surveyed lawn care companies<sup>2</sup></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <p class="product-subheading">Acelepryn in Action</p>
+                                <img src="images/Acelepryn_Video_Thumb.jpg" class="video-thumb" alt="Acelepryn Insecticide Small Pack from Syngenta | Small pack. Big results." data-yt-video-id="rYfHNE11VCc" data-yt-video-description="Acelepryn® insecticide from Syngenta is available in a convenient 4 oz. bottle, an ideal solution for smaller lawns, spot treatments and landscape ornamentals." />
+                              </div>
+                              <div class="col-sm-6">
+                                <p class="product-subheading">Supporting Materials</p>
+                                <ul class="product-materials">
+                                  <li><a href="https://www.greencastonline.com/imagehandler.ashx?ImID=97C512F1-6B55-4B2B-A08B-DEC63ECFB6B9&fTy=0&et=8" target="_blank">Acelepryn rate card</a></li>
+                                  <li><a href="https://www.greencastonline.com/imagehandler.ashx?ImID=6E1617DA-9536-4BDF-9410-E943BD402F68&fTy=0&et=8" target="_blank">Acelepryn information sheet</a></li>
+                                  <li><a href="https://www.greencastonline.com/imagehandler.ashx?ImID=8CB410A1-2F4D-4F95-9064-B74F2AF600F3&fTy=0&et=8" target="_blank">Acelepryn homeowner brochure</a></li>
+                                </ul>
+                                <a href="https://www.greencastonline.com/products/acelepryn-insecticide/turf" class="product-cta">Learn more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+
+      <div class="panel panel-default">
+
+        <section id="herbicides" class="ipn-ele">
+          <div class="hidden-xl hidden-lg hidden-md" style="height:20px"></div>
+          <div class="container">
+            <a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree" class="firstAngle">
+              <div class="row">
+                <div class="sec-title col-xs-12">
+                  <div class="header-line"></div>
+                  <h2>Herbicides</h2>
+                </div>
+              </div>
+            </a>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="panel">
+
+                  <a data-toggle="collapse" data-parent="#accordion21" href="#collapseThreeOne" class="secondAngle lime">
+                    <h3>Tenacity<sup>&reg;</sup> Herbicide</h3>
+                  </a>
+                  <div id="collapseThreeOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="row product-band">
+                        <div class="col-sm-4 product-info">
+                          <div class="product-info-inner">
+                            <img src="images/Tenacity_Logo_RGB.svg" />
+                            <!-- <%--<h3>Tenacity<sup>&reg;</sup> Herbicide</h3>--%> -->
+                            <p class="product-size">8 oz. bottle</p>
+                            <p class="product-coverage">1 tsp. in 2 gal. of water covers up to 93,000 ft.<sup>2</sup></p>
+                            <img src="images/Tenacity_Product.png" />
+                          </div>
+                        </div>
+                        <div class="col-sm-8 product-details">
+                          <div class="product-details-inner">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <ul class="product-checklist">
+                                  <li>Provides pre- and post-emergent control of difficult weeds</li>
+                                  <li>Controls more than 46 broadleaf weed and grass species</li>
+                                  <li>Unlike most herbicides, it can be applied at seeding for a weed-free lawn</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <p class="product-subheading">Tenacity in Action</p>
+                                <img src="images/Tenacity_Video_Thumb.jpg" class="video-thumb" alt="Tenacity Herbicide" data-yt-video-id="SYFOodHXVQU" data-yt-video-description="Tenacity® herbicide allows new lawns to flourish right from the start. &quot;It is the only herbicide that can remove existing weeds at seeding, provide residual control to keep them out, and can also selectively remove bentgrass, nimblewill, crabgrass, and other difficult-to-control weeds.&quot;" />
+                              </div>
+                              <div class="col-sm-6">
+                                <p class="product-subheading">Supporting Materials</p>
+                                <ul class="product-materials">
+                                  <li><a href="https://www.greencastonline.com/imagehandler.ashx?ImID=730749A2-ABDA-47D7-8795-55B88C3A09C5&fTy=0&et=8" target="_blank">Tenacity information sheet</a></li>
+                                  <li><a href="https://www.greencastonline.com/imagehandler.ashx?ImID=44146893-284D-4DCF-9E7B-BB02AB123BD5&fTy=0&et=8" target="_blank">Tenacity homeowner brochure</a></li>
+                                </ul>
+                                <a href="https://www.greencastonline.com/products/tenacity-herbicide/turf" class="product-cta">Learn more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+
+
+                  <a data-toggle="collapse" data-parent="#accordion21" href="#collapseThreeTwo" class="secondAngle">
+                    <h3>Barricade<sup>&reg;</sup> 4FL Herbicide</h3>
+                  </a>
+                  <div id="collapseThreeTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                      <div class="row product-band">
+                        <div class="col-sm-4 product-info">
+                          <div class="product-info-inner">
+                            <img src="images/Barricade_Logo_RGB.svg" />
+                            <!-- <%--<h3>Barricade<sup>&reg;</sup> 4FL Herbicide</h3>--%> -->
+                            <p class="product-size">4 oz. bottle</p>
+                            <p class="product-coverage">0.73 oz./1,000 ft.<sup>2</sup> covers 5,479 ft.<sup>2</sup></p>
+                            <p class="product-coverage">0.375 oz./1,000 ft.<sup>2</sup> covers 10,810 ft.<sup>2</sup></p>
+                            <img src="images/Barricade Product.png" />
+                          </div>
+                        </div>
+                        <div class="col-sm-8 product-details">
+                          <div class="product-details-inner">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <ul class="product-checklist">
+                                  <li>Controls more than 30 weeds in a broad range of use sites</li>
+                                  <li>Offers guaranteed long-lasting, pre-emergent weed control with one application</li>
+                                  <li>Controls weeds by preventing growth and development of newly germinated weeds</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!--<p class="product-subheading">Barricade in Action</p>
+                                <img src="" />-->
+                              </div>
+                              <div class="col-sm-6">
+                                <p class="product-subheading">Supporting Materials</p>
+                                <ul class="product-materials">
+                                  <li><a href="https://www.greencastonline.com/imagehandler.ashx?ImID=39C671C8-57C3-4D0F-8C4A-8B194355AAAF&fTy=0&et=8" target="_blank">Barricade herbicide application guarantee program</a></li>
+                                  <li><a href="supporting-materials/Barricade Rate Card.pdf" target="_blank">Barricade rate card</a></li>
+                                </ul>
+                                <a href="https://www.greencastonline.com/products/barricade-4fl-herbicide/turf" class="product-cta">Learn more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+      <div class="panel panel-default">
+        <section id="fungicides" class="ipn-ele">
+          <div class="hidden-xl hidden-lg hidden-md" style="height:20px"></div>
+          <div class="container">
+            <a data-toggle="collapse" data-parent="#accordion1" href="#collapseFour" class="firstAngle">
+              <div class="row">
+                <div class="sec-title col-xs-12">
+                  <div class="header-line"></div>
+                  <h2>Fungicides</h2>
+                </div>
+              </div>
+            </a>
+
+
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="panel">
+
+                  <a data-toggle="collapse" data-parent="#accordion21" href="#collapseFourOne" class="secondAngle">
+                    <h3>Heritage<sup>&reg;</sup> SC Fungicide</h3>
+                  </a>
+
+                  <div id="collapseFourOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="row product-band">
+                        <div class="col-sm-4 product-info">
+                          <div class="product-info-inner">
+                            <img src="images/Heritage_Logo_RGB.svg" />
+                            <!-- <%--<h3>Heritage<sup>&reg;</sup> SC Fungicide</h3>--%> -->
+                            <p class="product-size">4 oz. bottle</p>
+                            <p class="product-coverage">0.08 oz./1,000 ft.<sup>2</sup> covers 5,000 ft.<sup>2</sup></p>
+                            <p class="product-coverage">0.4 oz./1,000 ft.<sup>2</sup> covers 10,000 ft.<sup>2</sup></p>
+                            <img src="images/Heritage Product.png" />
+                          </div>
+                        </div>
+                        <div class="col-sm-8 product-details">
+                          <div class="product-details-inner">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <ul class="product-checklist">
+                                  <li>Controls more than 25 soil-borne and foliar turf diseases, as well as more than 30 ornamental diseases</li>
+                                  <li>Protects turf from diseases like leaf spot, brown patch, gray leaf spot and more for up to 28 days</li>
+                                  <li>Systemically moves through the plant to protect new growth</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!--<p class="product-subheading">Barricade in Action</p>
+                                <img src="" />-->
+                              </div>
+                              <div class="col-sm-6">
+                                <p class="product-subheading">Supporting Materials</p>
+                                <ul class="product-materials">
+                                  <li><a href="https://www.greencastonline.com/imagehandler.ashx?ImID=BF2C3AF6-6DF7-4C30-B81B-7E15206B71CC&fTy=0&et=8" target="_blank">Heritage information sheet</a></li>
+                                </ul>
+                                <a href="https://www.greencastonline.com/products/heritage-sc-fungicide/turf" class="product-cta">Learn more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+      <div class="panel panel-default">
+        <section id="pgrs" class="ipn-ele">
+          <div class="hidden-xl hidden-lg hidden-md" style="height:20px"></div>
+          <div class="container">
+            <a data-toggle="collapse" data-parent="#accordion1" href="#collapseFive" class="firstAngle">
+              <div class="row">
+                <div class="sec-title col-xs-12">
+                  <div class="header-line"></div>
+                  <h2>PRGs</h2>
+                </div>
+              </div>
+            </a>
+
+            <div id="collapseFive" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="panel">
+
+                  <a data-toggle="collapse" data-parent="#accordion21" href="#collapseFiveOne" class="secondAngle">
+                    <h3>Primo Maxx<sup>&reg;</sup> Plant Growth Regulator</h3>
+                  </a>
+
+                  <div id="collapseFiveOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                      <div class="row product-band">
+                        <div class="col-sm-4 product-info">
+                          <div class="product-info-inner">
+                            <img src="images/PrimoMaxx_Logo_RGB.svg" />
+                            <!-- <%--<h3>Primo Maxx<sup>&reg;</sup> Plant Growth Regulator</h3> --%> -->
+                            <p class="product-size">4 oz. bottle</p>
+                            <p class="product-coverage">0.75 oz. rate covers 5,333 ft.<sup>2</sup></p>
+                            <p class="product-coverage">0.25 oz. rate covers 16,000 ft.<sup>2</sup></p>
+                            <img src="images/PrimoMaxx_Product.png" />
+                          </div>
+                        </div>
+                        <div class="col-sm-8 product-details">
+                          <div class="product-details-inner">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <ul class="product-checklist">
+                                  <li>Provides denser turf that’s better equipped to stand up to stressors</li>
+                                  <li>Reduces mowing frequency, water use and improve drought tolerance</li>
+                                  <li>Slows vertical plant growth while stimulating below-ground growth of rhizomes, stolons, tillers and roots</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <!--<p class="product-subheading">Barricade in Action</p>
+                                <img src="" />-->
+                              </div>
+                              <div class="col-sm-6">
+                                <p class="product-subheading">Supporting Materials</p>
+                                <ul class="product-materials">
+                                  <li><a href="https://www.greencastonline.com/techarticle.aspx?gcaid=218718" target="_blank">Improve turf health and reduce lawn upkeep with a plant growth regulator</a></li>
+                                </ul>
+                                <a href="https://www.greencastonline.com/products/primo-maxx-plant-growth-regulator/turf" class="product-cta">Learn more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+      </div>
+
+
+    </div>
+
+    <section id="legal">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p><i><sup>1</sup> Source: Jonathan L. Larson, Carl T. Redmond and Daniel A. Potter, SCI. September 2011.</i></p>
+            <p><i><sup>2</sup> Source: 2021 TechValidate Survey</i></p>
+            <p>&copy; 2021 Syngenta. <strong>Important: Always read and follow label instructions. Some products may not be registered for sale or use in all states or countries and/or may have state-specific use requirements. Please check with your local extension service to ensure registration and proper use.</strong> Acelepryn<sup>&reg;</sup>, Barricade<sup>&reg;</sup>, Heritage<sup>&reg;</sup>, Tenacity<sup>&reg;</sup>, the Alliance Frame and the Syngenta logo are trademarks of a Syngenta Group Company. All other trademarks are property of their respective owners.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div class="youtube-video-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="youtube-video-inner">
+              <div class="youtube-video-frame">
+                <div class="video-title"></div>
+                <iframe id="player" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="480" height="720" src=""></iframe>
+                <div class="video-description"></div>
+                <span class="close">x</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div><!-- pp-main-cont -->
+</div><!-- page-content -->
+
+
+<!-- <script>
+
+window.onload = function () {
+var offset = $(':target').offset();
+var scrollto = offset.top - 170;
+$('html, body').animate({ scrollTop: scrollto }, 0);
+}
+</script> -->
+
+
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src='../assets/plugins/bootstrap/js/bootstrap.min.js'></script>
+<script type="text/javascript" src='../assets/plugins/back-to-top.js'></script>
+
+<script type="text/javascript" src='../assets/js/custom.js'></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src='../assets/js/app.js'></script>
+<script type="text/javascript" src="js/smallpacks.js"></script>
+<script type="text/javascript" src='../assets/megamenu/js/hf2017.js?version=1.0'></script>
+<script type="text/javascript" src='../assets/js/pages/page_portfolio.js'></script>
+<script type="text/javascript" src='../assets/js/plugins/layer-slider.js'></script>
+<script>
+
+  $(window).on("load resize",function(){
+    var screenwidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if (screenwidth <= 767) {
+      $('.panel-collapse').removeClass('in');
+      $('a[aria-expanded="true"]').addClass("collapsed");
+      $('a[aria-expanded="true"]').attr("aria-expanded", "false");
+    }
+    if (screenwidth >= 768) {
+      $('#accordion1 .panel-collapse').addClass('in');
+      $('#accordion1 a[data-toggle="collapse"]').removeClass('collapsed');
+      $('#accordion1 a[data-toggle="collapse"]').attr("aria-expanded", "true");
+    }
+  });
+
+</script>
+<script type="text/javascript">
+  // jQuery(document).ready(function () {
+  //     App.init();
+  // });
+  // function searchFunct() {
+  //     //debugger;
+  //     var getSearchValueMob = $('#txtMobileSearch').val();
+  //     $('#txtMobileSearch').val('');
+  //     doSearch(getSearchValueMob);
+  //     return false;
+  // }
+  //
+  //
+  // function createCookie(name, value, days) {
+  //     if (days) {
+  //         var date = new Date();
+  //         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+  //         var expires = "; expires=" + date.toGMTString();
+  //     }
+  //     else var expires = "";
+  //     document.cookie = name + "=" + value + expires + "; path=/";
+  // }
+  //
+  //
+  // function doSearch(searchText) {
+  //     var min = 1001;
+  //     var max = 9999;
+  //     var random = Math.floor(Math.random() * (max - min + 1) + min);
+  //     //To Create Cookies in Javascript
+  //     createCookie('GCSearchAccessCode', random + '-' + searchText, 7);
+  //     // Redirect a user
+  //     var baseURL;
+  //     baseURL = 'https://' + window.location.host + '/GCSearch.aspx?q=' + searchText;
+  //     if (isFireFox()) {
+  //         window.location.href = baseURL;
+  //         return false;
+  //     }
+  //     else {
+  //         window.navigate(baseURL);
+  //         return false;
+  //     }
+  // }
+</script>
+
+
+
+</body>
+</html>
